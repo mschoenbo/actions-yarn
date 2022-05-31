@@ -9,8 +9,10 @@ inputs:
     required: true
   auth-token:
     description: 'NPM_AUTH_TOKEN'
+    required: false
   registry-url:
     description: 'NPM_REGISTRY_URL'
+    required: false
 runs:
   using: 'docker'
   image: 'Dockerfile'
